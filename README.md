@@ -11,7 +11,7 @@ Use the `ReservoirSamplerInputFormat` as a wrapper around your existing
 included `SamplerJob` is an example of using the `ReservoirSampler`
 over the `TextInputFormat` class. Try it for yourself:
 
-    $ hadoop jar target/ReservoirSampler-*.jar /path/to/input ./sampled
+    $ hadoop jar target/reservoirsampler-*.jar /path/to/input ./sample
 
 The simplest way to use the sampler in your own projects is via
 [clojars][2]. After you've added the repository, you can get the
@@ -29,6 +29,6 @@ as the original work.
 [0]: http://www.manning.com/holmes/
 [1]: https://github.com/alexholmes/hadoop-book
 [2]: https://clojars.org/
-[3]: https://clojars.org/reservoirsampler
+[3]: https://clojars.org/org.clojars.ndimiduk/reservoirsampler
 [4]: http://leiningen.org/
 [5]: http://www.apache.org/licenses/LICENSE-2.0
